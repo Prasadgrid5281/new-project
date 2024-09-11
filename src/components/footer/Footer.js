@@ -16,7 +16,6 @@ const Footer = () => {
             <li><a href='#'>Membership</a></li>
             <li><a href='#'>Join</a></li>
 
-
         </ul>
         
     </footer>

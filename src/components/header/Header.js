@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const[isOpen,setIsOpen]=useState(false)
@@ -20,19 +21,19 @@ const Header = () => {
 
       <ul className={isOpen?"open":"close"}>
         <li>
-          <a href="#">Home</a>
+          <Link to='/'>Home</Link>
         </li>
         <li>
-          <a href="#">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="#">Schedules</a>
+          <Link to='/schedules'>Schedules</Link>
         </li>
         <li>
-          <a href="#">Membership</a>
+          <Link to='/membership'>Membership</Link>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <Link to='/pricing'>Pricing</Link>
         </li>
       </ul>
       <div className="header-btn">
