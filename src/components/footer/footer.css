@@ -1,0 +1,35 @@
+footer{
+    background-color: #f1efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    color:#f27a44;
+
+
+}
+@media (max-width:476px) {
+    footer h1{
+        font-size: 20px;
+    }
+    
+}

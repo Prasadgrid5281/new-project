@@ -1,0 +1,111 @@
+.contact-category {
+  background-color: #f1efef;
+  padding: 20px;
+}
+.contact-category .contact-content {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.booknow-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 700px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.input-box {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-box input {
+  padding: 13px;
+  border-radius: 6px;
+  width: 100%;
+  border: none;
+  background-color: #f1efef;
+}
+.input-combo {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.star-btn-group {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.star-btn {
+  padding: 13px;
+  width: 50%;
+  border: none;
+}
+.counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-now {
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+}
+@media (max-width: 1100px) {
+  .contact-category .contact-content {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1300px;
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width:476px) {
+    .contact-category .contact-content {
+        padding: 0px;
+        
+      }
+      .booknow-card {
+        
+        gap: 20px;
+        
+      }
+      .booknow-card h1{
+        font-size: 25px;
+      }
+      .book-now {
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 6px;
+      }
+}
