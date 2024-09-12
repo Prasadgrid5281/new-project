@@ -24,7 +24,6 @@ function App() {
       <Discount />
       <Contact />
       <Testimonial />
-      {/* <Outlet /> */}
       <Footer />
     </div>
   );
